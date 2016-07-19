@@ -7,9 +7,6 @@
     "GOOG_USERNAME": "my_google_username",
     "GOOG_PASSWORD": "my_google_password"
   },
-  "addons": [
-    "papertrail"
-  ],
   "success_url": "/",
   "scripts": {
     "postdeploy": "python manage.py migrate"
